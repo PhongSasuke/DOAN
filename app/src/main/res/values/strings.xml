@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DOAN</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Parking App</string>
+    <string name="nav_header_subtitle">Parking App</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_homead">Home</string>
+    <string name="menu_gallery">Danh sách các bãi xe</string>
+    <string name="menu_galleryad">Quan Ly Bai Xe</string>
+
+    <string name="menu_slideshow">Lịch Sử Đặt Chỗ</string>
+    <string name="menu_slideshowad">Tài Khoản </string>
+
+    <string name="menu_nophi">Tài Khoản Liên Kết</string>
+    <string name="menu_logout">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Layout AdMin</string>
+
+    <string name="Nophi">Bạn Chưa Có Nợ Phí</string>
+    <string name="DatVe">Bạn Chưa Đặt Vé Nào</string>
+    <string name="LienKet">Bạn Chưa Có Liên Kết nào</string>
+
+    <string name="title_activity_nav_adactivity">NavADActivity</string>
+
+</resources>

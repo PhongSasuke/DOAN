@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_homead">
+
+    <fragment
+        android:id="@+id/nav_homead"
+        android:name="com.example.doan.ui.home.HomeADFragment"
+        android:label="@string/menu_homead"
+        tools:layout="@layout/fragment_home_a_d" />
+
+    <fragment
+        android:id="@+id/nav_galleryad"
+        android:name="com.example.doan.ui.gallery.GalleryADFragment"
+        android:label="@string/menu_galleryad"
+        tools:layout="@layout/fragment_gallery_a_d" />
+
+    <fragment
+        android:id="@+id/nav_slideshowad"
+        android:name="com.example.doan.ui.slideshow.SlideshowADFragment"
+        android:label="@string/menu_slideshowad"
+        tools:layout="@layout/fragment_slideshow_a_d" />
+    <fragment
+        android:id="@+id/action_logout"
+        android:label="Logout"
+        tools:layout="@layout/dialog_logout" />
+</navigation>
