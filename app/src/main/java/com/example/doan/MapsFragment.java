@@ -51,6 +51,17 @@ public class MapsFragment extends Fragment {
                 LatLng myLatLng = new LatLng(10.8546964, 106.7854153);
                 googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myLatLng, 15));
                 googleMap.addMarker(new MarkerOptions().position(myLatLng).title("Vị trí của tôi"));
+                LatLng myLatLng1 = new LatLng(10.83144, 106.73213);
+                googleMap.addMarker(new MarkerOptions().position(myLatLng).title("Bãi xe Hiệp Bình Chánh"));
+                LatLng myLatLng2 = new LatLng(10.83245, 106.73200);
+                googleMap.addMarker(new MarkerOptions().position(myLatLng).title("Bãi xe Hiệp Bình Chánh"));
+                LatLng myLatLng3 = new LatLng(10.83317, 106.73288);
+                googleMap.addMarker(new MarkerOptions().position(myLatLng).title("Bãi xe Hiệp Bình Chánh"));
+                LatLng myLatLng4 = new LatLng(10.83274, 106.73157);
+                googleMap.addMarker(new MarkerOptions().position(myLatLng).title("Bãi xe Hiệp Bình Chánh"));
+                LatLng myLatLng5 = new LatLng(10.83357, 106.73279);
+                googleMap.addMarker(new MarkerOptions().position(myLatLng).title("Bãi xe Hiệp Bình Chánh"));
+
             }
         }
     };
