@@ -49,8 +49,8 @@ public class MapsFragment extends Fragment {
             myMap = googleMap;
             if (currentLocation != null) {
                 LatLng myLatLng = new LatLng(10.8546964, 106.7854153);
-                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myLatLng, 15));
-                googleMap.addMarker(new MarkerOptions().position(myLatLng).title("Vị trí của tôi"));
+                myMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myLatLng, 15));
+                myMap.addMarker(new MarkerOptions().position(myLatLng).title("Vị trí của tôi"));
                 LatLng myLatLng1 = new LatLng(10.83144, 106.73213);
                 googleMap.addMarker(new MarkerOptions().position(myLatLng).title("Bãi xe Hiệp Bình Chánh"));
                 LatLng myLatLng2 = new LatLng(10.83245, 106.73200);

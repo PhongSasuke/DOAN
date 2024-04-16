@@ -26,9 +26,11 @@
         <!-- <action android:name="android.intent.action.MAIN" /> -->
         <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
         <!-- </intent-filter> -->
+
+<!--        AIzaSyA-NmrDsDiFxFoyQYoSJbogjWcsG3xKYzI-->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyA-NmrDsDiFxFoyQYoSJbogjWcsG3xKYzI" />
+            android:value="AIzaSyAFm7KD3b08s5zuFguHwrZ4B0ejqEWKJ0Q" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
